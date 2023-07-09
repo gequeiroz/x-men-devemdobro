@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <title>Projeto X-Man</title>
+    
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/logo.svg" alt="Logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="ciclope" data-name="<< Ciclope >>" data-description="Ele tem o poder de disparar rajadas ópticas, mas não consegue controlá-las. Por isso ele usa os óculos. Com isso, ele consegue controlar os raios e ainda consegue direcionar-los, tornando se um canhão laser ambulante">
+            <img
+              src="./src/imagens/card-ciclope.jpg"
+              alt="Personagem Ciclope"
+            />
+          </li>
+          <li class="personagem" id="jean-grey" data-name="<< Jean Grey >>" data-description="Ela é muito atraente e vai mexer com a sua cabeça e te levar as alturas. Ela tem o poder de ler e controlar a sua mente, e também o dom da telecinese!!">
+            <img
+              src="./src/imagens/card-jean-grey.jpg"
+              alt="Personagem Jean Grey"
+            />
+          </li>
+
+          <li class="personagem" id="lince-negra" data-name="<< Lince Negra >>" data-description="Paredes para ela, não são obtáculos, na verdade é sua maior arma. Seu poder é o de atravessar objetos. Se seu coração é de pedra, saiba que ela pode atravessar sem problema">
+            <img
+              src="./src/imagens/card-lince-negra.jpg"
+              alt="Personagem Lince Negra"
+            />
+          </li>
+
+          <li class="personagem" id="tempestade" data-name="<< Tempestade >>" data-description="Se o tempo fechou derrepente, pode apostar que ela está por perto. Ela tem o poder de controlar o tempo, e se estiver em um dia ruim, ainda pode te atingir com um raio!!">
+            <img
+              src="./src/imagens/card-tempestade.jpg"
+              alt="Personagem Tempestade"
+            />
+          </li>
+
+          <li class="personagem" id="vampira" data-name="<< Vampira >>" data-description="Essa gatinha, pode até não te monder, mas, se ela te tocar, vai sugar todas as suas forças e se você tiver algum poder, ela também o-rouba">
+            <img
+              src="./src/imagens/card-vampira.jpg"
+              alt="Personagem Vampira"
+            />
+          </li>
+
+          <li class="personagem" id="Wolverine" data-name="<< Wolverine >>" data-description="Cuidado com este cara. Ele é muito mau humorado. E se você o irritar, ele mostra sua garras de Adamantium, que são capazes de te dilacerar completamente!!">
+            <img
+              src="./src/imagens/card-wolverine.jpg"
+              alt="Personagem Wolverine"
+            />
+          </li>
+
+          <li class="personagem" id="noturno" data-name="<< Noturno >>" data-description="Carinha gente boa, mas, se precisar, ele usa seu poder e desaparece, reaparecendo onde ele quiser. E se ele quiser, poder te levar junto!!">
+            <img
+              src="./src/imagens/card-noturno.jpg"
+              alt="Personagem Noturno"
+            />
+          </li>
+
+          <li class="personagem" id="magneto" data-name="<< Magneto >>" data-description="Este senhor é muito poderoso, Ele tem o poder do magnetismo. Ou seja, pode controlar qualquer metal. Só quem pode te deter, é o Professor Xavier, mas, ele tem que etar sem o seu capacete">
+            <img
+              src="./src/imagens/card-magneto.jpg"
+              alt="Personagem Magneto"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-ciclope.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ele tem o poder de disparar rajadas ópticas por um acidente que
+            aconteceu com ele quando criança, mas não consegue controlá-los
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
